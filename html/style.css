@@ -234,7 +234,7 @@ body {
 }
 body {
   margin: 0;
-  background: linear-gradient(180deg, #f7edf0 0%, #fff 30%);
+  /* background: linear-gradient(180deg, #f7edf0 0%, #fff 30%); */
   color: #222;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -721,4 +721,58 @@ html {
 
 .mobile-nav.show {
   display: flex;
+}
+/* SOCIAL SECTION */
+.social-section {
+  text-align: center;
+  padding: 40px 0;
+  background: #ffffff;
+  font-family: "Outfit", sans-serif;
+}
+
+.social-section h3 {
+  font-family: "Big Shoulders Text", sans-serif;
+  font-size: 28px;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #fff;
+  background: linear-gradient(135deg, #d6007b, #b300ff);
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  transform: scale(1.15);
+  box-shadow: 0 6px 15px rgba(214, 0, 123, 0.4);
+}
+
+.instagram {
+  background: linear-gradient(135deg, #d6007b, #b300ff);
+}
+.linkedin {
+  background: #0a66c2;
+}
+.twitter {
+  background: #000;
 }
